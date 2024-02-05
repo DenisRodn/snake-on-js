@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #7f7f7f;
+}
+
+#toggle {
+    display: block;
+    margin-top: 6px;
+    height: 24px;
+    width: 60px;
+    border-style: solid;
+    border-color: #b50808;
+    border-width: 1px;
+    border-radius: 15px;
+}
+
+#pointer {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 10px;
+    margin-left: 37px;
+    margin-right: 3px;
+    background-color: #b50808;
+    border-radius: 50%;
+}
+
+#space {
+    margin-left: 0px;
+    height: 75vh;
+    width: 75vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#switch {
+    display:flex;
+    margin-top: 10px;
+    margin-left: 2px;
+    height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    -webkit-text-stroke: 0.25px #b50808;
+    font-size: 35px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    -webkit-text-stroke: 0.25px #b50808;
+    font-size: 35px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    font-family: "Kanit", sans-serif;
+    color: #b50808;
+    -webkit-text-stroke: 3px #000000;
+    font-size: 75px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.control-settings, .right-side {
+    width: 310px;
+}
+
+#settings-head {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    -webkit-text-stroke: 0.25px #b50808;
+}
+hr {
+    width: 300px;
+    border-color:#000000;
+}
+
+#control-menu {
+    margin-top: 80px;
+    width: 310px;
+}
+
+.right-side {
+    width: 310px;
+}
+
+#WASD {
+    display: block;
+    margin-right: 10px;
+}
+
+#Arrows {
+    display: block;
+    margin-left: 10px;
+}
+
+body {
+    margin: 0;
+}
+
+#start-screen {
+    color: white;
+    margin: auto;
+    font-size: 28px;
+}
+
+.game-over-message {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+}
+
+.cell {
+    height: 3.75vh;
+    width: 3.75vh;
+}
