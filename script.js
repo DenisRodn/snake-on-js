@@ -6,7 +6,7 @@ const pointer = document.getElementById('pointer')
 
 let interval
 let control = 'Arrows'
-let shift = [0, -1] // [x, y]
+let shift    // [x, y]
 let field = []
 
 class Cell {
@@ -171,12 +171,9 @@ function start(event) {
     if (event.key === ' ') {
         shift = [0, -1]
         space.innerHTML = ''
-        for (let y = 0; y < 20; y++) {
-            for (let x = 0; x < 20; x++) {
-                const id = 20 * y + x
-                space.insertAdjacentHTML('beforeend', `
-                <div id = "${id}" class = "cell"></div>`)
-            }
+        for (let id = 0; id < 400; id++) {
+            space.insertAdjacentHTML('beforeend', `
+            <div id = "${id}" class = "cell"></div>`)
         }
         
         field = []
