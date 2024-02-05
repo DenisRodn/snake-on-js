@@ -105,7 +105,6 @@ function setFood() {
     }
 }
 
-
 function direction(event) {
     switch (event.key) {
         case 'w':
